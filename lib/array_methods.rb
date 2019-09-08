@@ -1,5 +1,6 @@
 def find_element_index(array, value_to_find)
-  if array
+  if array == 0 
+    retrun nil
 array.index
 puts array
 end
